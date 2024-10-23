@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.*;
 
 public class FifteenPuzzle {
-     int SIZE = 3;
+     int SIZE = 4;
      int[][] board = new int[SIZE][SIZE];
      int emptyRow, emptyCol;
 
@@ -25,7 +25,7 @@ public class FifteenPuzzle {
 
     private void shuffleBoard() {
         Random rand = new Random();
-        for (int i = 0; i < 32; i++) {
+        for (int i = 0; i < 100; i++) {
             int direction = rand.nextInt(4);
             switch (direction) {
                 case 0 : move("UP"); break;
