@@ -7,7 +7,7 @@ public class Mine {
     public static final char MINE = '*';
     public static final char FLAGGED = 'F';
     public static final int SIZE = 9;
-    public static final int MINES = 3;
+    public static final int MINES = 10;
     
     public char[][] board;
     public  static boolean[][] revealed;
